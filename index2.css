@@ -1,0 +1,222 @@
+header{
+    background-color: black;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.date{
+    border: 1px solid gray;
+    border-color: lightgray;
+    background-color: lightgray;
+}
+.topnav{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 40px;
+    padding-top: 100px;
+}
+.topnav h3{
+    position: absolute;
+    left: 5%;
+    font-size: xx-large ;
+    top: 10px;
+}
+
+.container{
+    background-image: url(./images/theater-image-background.png);
+    color: white;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 590px;
+}
+
+.container h1{
+    text-align: center;
+    padding-top: 20%;
+    font-size: 75px;
+}
+
+.grid1 img{
+    width: 175px;
+    height: 125px;
+}
+
+.grid1{
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "date date date"
+    "box1 box2 box3"
+    "box4 box5 box6"
+    "box7 box8 box9"
+    "box10 box11 box12";
+    margin-left:300px;
+    margin-right: 300px;
+}
+
+.date{
+    grid-area: date;
+}
+
+.img1{
+    grid-area: box1;
+    padding-bottom: 10px;
+}
+
+.img2{
+    grid-area: box4;
+    padding-bottom: 10px;
+}
+ .img3{
+    grid-area: box7;
+    padding-bottom: 10px;
+ }
+
+ .img4{
+    grid-area: box10;
+    padding-bottom: 10px;
+ }
+
+ .text1{
+    grid-area: box2;
+    margin-right: 40px;
+ }
+ .text2{
+    grid-area: box5 ;
+ }
+ .text3{
+    grid-area: box8;
+ }
+ .text4{
+    grid-area: box11;
+ }
+
+ .but1{
+    grid-area: box3;
+    width: 135px;
+    height: 65px;
+    background-color: rgb(233, 160, 24);
+    color: white;
+    margin-right: 20px;
+
+ }
+ .but2{
+    grid-area: box6;
+    width: 135px;
+    height: 65px;
+    background-color: rgb(233, 160, 24);
+    color: white;
+ }
+ .but3{
+    grid-area: box9;
+    width: 135px;
+    height: 65px;
+    background-color: rgb(233, 160, 24);
+    color: white;
+ }
+ .but4{
+    grid-area: box12;
+    width: 135px;
+    height: 65px;
+    background-color: rgb(233, 160, 24);
+    color: white;
+ }
+
+ .grid2{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-column: 2fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "pic one two three"
+    "pic four five six"
+    "pic seven eight nine"
+    "pic ten eleven twelve"
+    ". . thirteen fourteen";
+    margin-top: 10px;
+}
+.grid2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.grid2 a:hover{
+    color: red;
+}
+
+.img5{
+    grid-area: pic;
+    width: 250px;
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+.e1{
+    grid-area: one;
+    font-size: 30px;
+}
+.e2{
+    grid-area: two;
+    font-size: 30px;
+}
+.e3{
+    grid-area: three;
+    font-size: 30px;
+}
+.e4{
+    grid-area: four;
+    font-size: 15px;
+}
+.e5{
+    grid-area: five;
+    font-size: 15px;
+}
+.e6{
+    grid-area: six;
+    font-size: 15px;
+}
+.e7{
+    grid-area: seven;
+    font-size: 15px;
+}
+.e8{
+    grid-area: eight;
+    font-size: 15px;
+}
+.e9{
+    grid-area: nine;
+    font-size: 15px;
+}
+.e10{
+    grid-area: ten;
+    font-size: 15px;
+}
+.e11{
+    grid-area: eleven;
+    font-size: 15px;
+}
+.e12{
+    grid-area: twelve;
+    font-size: 15px;
+}
+.e13{
+    grid-area: thirteen;
+    font-size: 15px;
+}
+.e14{
+    grid-area: fourteen;
+    font-size: 15px;
+}
